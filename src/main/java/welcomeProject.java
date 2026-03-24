@@ -1,8 +1,10 @@
-public class welcomeProject{
-  public static void main (String[] args ){
-  
-  System.out.println("Welcome to the project");
-  
-  }
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
+public class WelcomeProject {
+
+    public static void main(String[] args) {
+        SpringApplication.run(WelcomeProject.class, args);
+    }
 }
